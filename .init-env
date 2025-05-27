@@ -1,0 +1,8 @@
+ANDROID_HOME=/tmp/android-cli-tools
+JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+GRADLE_VERSION=$(gradle --version | grep 'Gradle' | awk '{print $2}')
+SDKMANAGER_PATH=/tmp/android-cli-tools/cmdline-tools/latest/bin/sdkmanager
+SDK_PLATFORM=android-34
+SDK_BUILD_TOOLS=34.0.0
+SDK_PLATFORM_TOOLS_INSTALLED=1
+SDK_EMULATOR_INSTALLED=1
